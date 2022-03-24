@@ -248,7 +248,7 @@ section {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-right: 18rem;
+  padding-right: 30rem;
 }
 
 .header-content .right-header .name {
@@ -257,6 +257,41 @@ section {
 
 .header-content .right-header .name span {
   color: var(--color-secondary);
+}
+
+.header-content .right-header .name .machine-effect {
+  display: block;
+  font-family: monospace;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 15ch;
+  -webkit-animation: typing 2s steps(15), blink 0.5s infinite step-end alternate;
+          animation: typing 2s steps(15), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+@-webkit-keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@-webkit-keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }
 
 .header-content .right-header p {
