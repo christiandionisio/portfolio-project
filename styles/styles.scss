@@ -190,20 +190,23 @@ section {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-right: 30rem;
+        padding-right: 18rem;
+        width: 1000px;
 
         .name {
-            font-size: 3rem;
+            // font-size: 3rem;
+            font-size: 4.5rem;
 
             span {
                 color: var(--color-secondary);
             }
 
             .machine-effect {
+                color: var(--color-grey-3);
                 display: block;
                 font-family: monospace;
                 white-space: nowrap;
-                border-right: 4px solid;
+                border-right: 4px solid var(--color-grey-3);
                 width: 15ch;
 
                 animation: typing 2s steps(15),

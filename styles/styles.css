@@ -248,11 +248,12 @@ section {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-right: 30rem;
+  padding-right: 18rem;
+  width: 1000px;
 }
 
 .header-content .right-header .name {
-  font-size: 3rem;
+  font-size: 4.5rem;
 }
 
 .header-content .right-header .name span {
@@ -260,10 +261,11 @@ section {
 }
 
 .header-content .right-header .name .machine-effect {
+  color: var(--color-grey-3);
   display: block;
   font-family: monospace;
   white-space: nowrap;
-  border-right: 4px solid;
+  border-right: 4px solid var(--color-grey-3);
   width: 15ch;
   -webkit-animation: typing 2s steps(15), blink 0.5s infinite step-end alternate;
           animation: typing 2s steps(15), blink 0.5s infinite step-end alternate;
