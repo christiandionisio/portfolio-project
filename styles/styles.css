@@ -253,11 +253,16 @@ section {
 }
 
 .header-content .right-header .name {
-  font-size: 4.5rem;
+  font-size: 4.3rem;
+}
+
+.header-content .right-header .name .prename {
+  font-size: 1.7rem;
 }
 
 .header-content .right-header .name span {
   color: var(--color-secondary);
+  font-size: 4rem;
 }
 
 .header-content .right-header .name .machine-effect {
@@ -269,6 +274,8 @@ section {
   width: 15ch;
   -webkit-animation: typing 2s steps(15), blink 0.5s infinite step-end alternate;
           animation: typing 2s steps(15), blink 0.5s infinite step-end alternate;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
   overflow: hidden;
 }
 

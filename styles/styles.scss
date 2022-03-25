@@ -195,10 +195,15 @@ section {
 
         .name {
             // font-size: 3rem;
-            font-size: 4.5rem;
+            font-size: 4.3rem;
+
+            .prename {
+                font-size: 1.7rem;
+            }
 
             span {
                 color: var(--color-secondary);
+                font-size: 4rem;
             }
 
             .machine-effect {
@@ -211,6 +216,7 @@ section {
 
                 animation: typing 2s steps(15),
                     blink .5s infinite step-end alternate;
+                animation-delay: 1s;
                 
                 overflow: hidden;
 
