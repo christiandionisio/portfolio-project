@@ -235,8 +235,8 @@ section {
 .header-content {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-columns: (1fr 2fr)[1];
+      grid-template-columns: repeat(1, 1fr 2fr);
   min-height: 100vh;
 }
 
@@ -302,7 +302,7 @@ section {
       -ms-flex-pack: center;
           justify-content: center;
   padding-right: 18rem;
-  width: 90%;
+  width: 100%;
 }
 
 .header-content .right-header .name {
@@ -1157,7 +1157,7 @@ section {
     padding: 0;
   }
   header .right-header {
-    padding: 0 !important;
+    padding: 0 3rem !important;
   }
   .theme-btn {
     width: 50px;
