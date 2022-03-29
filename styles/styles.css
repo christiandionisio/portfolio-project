@@ -301,7 +301,7 @@ section {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-right: 18rem;
+  padding-right: 10.5rem;
   width: 100%;
 }
 
@@ -324,7 +324,7 @@ section {
   font-family: monospace;
   white-space: nowrap;
   border-right: 4px solid var(--color-grey-2);
-  width: 15ch;
+  width: 18ch;
   -webkit-animation: typing 2s steps(15), blink 0.5s infinite step-end alternate;
           animation: typing 2s steps(15), blink 0.5s infinite step-end alternate;
   -webkit-animation-delay: 1s;
@@ -1048,6 +1048,22 @@ section {
           justify-content: flex-start;
 }
 
+@media screen and (max-width: 550px) {
+  .right-header .name .prename {
+    font-size: 1.3rem !important;
+  }
+  .right-header .name span {
+    font-size: 1rem !important;
+    width: 100%;
+  }
+  .right-header .name .machine-effect {
+    font-size: 2.1rem !important;
+  }
+  .right-header p {
+    font-size: 1rem !important;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .about-container {
     -ms-grid-columns: 1fr;
@@ -1070,13 +1086,13 @@ section {
     padding-bottom: 6rem;
   }
   .portfolios {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
     padding-bottom: 6rem;
   }
   .blogs {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
     padding-bottom: 6rem;
   }
   .section {
