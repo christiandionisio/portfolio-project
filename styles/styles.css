@@ -1048,16 +1048,32 @@ section {
           justify-content: flex-start;
 }
 
+@media screen and (max-width: 450px) {
+  .right-header .name .prename {
+    font-size: 1.3rem !important;
+  }
+  .right-header .name span {
+    font-size: 1.9rem !important;
+    width: 100%;
+  }
+  .right-header .name .machine-effect {
+    font-size: 1.7rem !important;
+  }
+  .right-header p {
+    font-size: 1rem !important;
+  }
+}
+
 @media screen and (max-width: 550px) {
   .right-header .name .prename {
     font-size: 1.3rem !important;
   }
   .right-header .name span {
-    font-size: 1rem !important;
+    font-size: 1rem;
     width: 100%;
   }
   .right-header .name .machine-effect {
-    font-size: 2.1rem !important;
+    font-size: 2.1rem;
   }
   .right-header p {
     font-size: 1rem !important;
@@ -1096,7 +1112,7 @@ section {
     padding-bottom: 6rem;
   }
   .section {
-    padding: 2rem 2.5rem !important;
+    padding: 2rem 2.5rem;
   }
   .main-title h2 {
     font-size: 2rem;
@@ -1106,6 +1122,9 @@ section {
   }
   .main-title h2 .bg-text {
     font-size: 3rem;
+  }
+  .contact-content-con .left-contact .contact-info .contact-item {
+    display: block;
   }
 }
 
@@ -1197,7 +1216,7 @@ section {
     font-size: 2.5rem !important;
   }
   .right-header .name span {
-    font-size: 2.5rem !important;
+    font-size: 2.5rem;
   }
   .right-header .header-content .left-header .image {
     margin: 0 auto;

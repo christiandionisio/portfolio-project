@@ -1,4 +1,32 @@
 
+@media screen and (max-width: 450px) {
+
+    .right-header {
+
+        .name {
+
+            .prename {
+                font-size: 1.3rem !important;
+
+            }
+
+            span {
+                font-size: 1.9rem !important;
+                width: 100%;
+            }
+
+            .machine-effect {
+                font-size: 1.7rem !important;
+            }
+        }
+
+        p {
+            font-size: 1rem !important;
+        }
+    }
+
+}
+
 
 @media screen and (max-width: 550px) {
 
@@ -12,12 +40,12 @@
             }
 
             span {
-                font-size: 1rem !important;
+                font-size: 1rem;
                 width: 100%;
             }
 
             .machine-effect {
-                font-size: 2.1rem !important;
+                font-size: 2.1rem;
             }
         }
 
@@ -63,7 +91,7 @@
     }
 
     .section {
-        padding: 2rem 2.5rem !important;
+        padding: 2rem 2.5rem;
     }
 
     .main-title {
@@ -78,6 +106,10 @@
                 font-size: 3rem;
             }
         }
+    }
+
+    .contact-content-con .left-contact .contact-info .contact-item {
+        display: block;
     }
 }
 
@@ -186,7 +218,7 @@
             font-size: 2.5rem !important;
 
             span {
-                font-size: 2.5rem !important;
+                font-size: 2.5rem;
             }
         }
 
