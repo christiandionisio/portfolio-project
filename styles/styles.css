@@ -946,6 +946,7 @@ section {
 }
 
 .contact-content-con .left-contact .contact-info .contact-item .icon i {
+  color: var(--color-secondary);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

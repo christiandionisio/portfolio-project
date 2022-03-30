@@ -769,6 +769,7 @@ section {
                     grid-template-columns: 40px 1fr;
 
                     i {
+                        color: var(--color-secondary);
                         display: flex;
                         align-items: center;
                         font-size: 1.3rem;
