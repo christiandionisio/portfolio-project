@@ -6,6 +6,10 @@
   list-style: none;
 }
 
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
 :root {
   --color-primary: #191d2b;
   --color-secondary: #27AE60;
@@ -1060,8 +1064,8 @@ section {
   .right-header .name .machine-effect {
     font-size: 1.7rem !important;
   }
-  .right-header p {
-    font-size: 15px !important;
+  .header-content .right-header p {
+    font-size: 13px !important;
   }
   .header-content .left-header {
     display: none;

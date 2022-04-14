@@ -19,13 +19,14 @@
                 font-size: 1.7rem !important;
             }
         }
-
-        p {
-            font-size: 15px !important;
-        }
     }
 
     .header-content {
+        .right-header {
+            p {
+                font-size: 13px !important;
+            }
+        }
         .left-header {
             display: none;
         }

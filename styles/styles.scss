@@ -7,6 +7,10 @@
     list-style: none;
 }
 
+html {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
 :root {
     --color-primary: #191d2b;
     --color-secondary: #27AE60;
