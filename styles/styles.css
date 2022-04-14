@@ -1061,7 +1061,10 @@ section {
     font-size: 1.7rem !important;
   }
   .right-header p {
-    font-size: 1rem !important;
+    font-size: 15px !important;
+  }
+  .header-content .left-header {
+    display: none;
   }
 }
 
