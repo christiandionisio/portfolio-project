@@ -1070,8 +1070,14 @@ section {
   .header-content .left-header {
     display: none;
   }
+  .contact-content-con .left-contact h4 {
+    text-align: center;
+  }
   .contact-content-con .left-contact p {
     font-size: 15px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .contact-content-con .left-contact .contact-info {
     text-align: center;
@@ -1091,6 +1097,11 @@ section {
     margin-right: 5px;
   }
   .contact-content-con .left-contact .contact-icon {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contact-content-con .right-contact .submit-btn {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;

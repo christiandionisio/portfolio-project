@@ -34,8 +34,13 @@
 
     .contact-content-con {
         .left-contact {
+            h4 {
+                text-align: center;
+            }
+
             p {
                 font-size: 15px;
+                justify-content: center;
             }
 
             .contact-info {
@@ -54,6 +59,12 @@
             }
 
             .contact-icon {
+                justify-content: center;
+            }
+        }
+
+        .right-contact {
+            .submit-btn {
                 justify-content: center;
             }
         }
