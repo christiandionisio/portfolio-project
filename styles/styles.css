@@ -1090,6 +1090,11 @@ section {
   .contact-content-con .left-contact .contact-info .contact-item .icon i {
     margin-right: 5px;
   }
+  .contact-content-con .left-contact .contact-icon {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 @media screen and (max-width: 550px) {
