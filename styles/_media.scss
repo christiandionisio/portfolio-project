@@ -32,6 +32,29 @@
         }
     }
 
+    .contact-content-con {
+        .left-contact {
+            p {
+                font-size: 15px;
+            }
+
+            .contact-info {
+                text-align: center;
+                .contact-item {
+                    margin-bottom: 25px;
+                    .icon {
+                        display: flex;
+                        justify-content: center;
+                        
+                        i {
+                            margin-right: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 
 }
 

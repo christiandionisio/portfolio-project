@@ -1070,6 +1070,26 @@ section {
   .header-content .left-header {
     display: none;
   }
+  .contact-content-con .left-contact p {
+    font-size: 15px;
+  }
+  .contact-content-con .left-contact .contact-info {
+    text-align: center;
+  }
+  .contact-content-con .left-contact .contact-info .contact-item {
+    margin-bottom: 25px;
+  }
+  .contact-content-con .left-contact .contact-info .contact-item .icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contact-content-con .left-contact .contact-info .contact-item .icon i {
+    margin-right: 5px;
+  }
 }
 
 @media screen and (max-width: 550px) {
