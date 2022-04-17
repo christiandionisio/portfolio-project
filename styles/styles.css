@@ -1078,6 +1078,8 @@ section {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    text-align: center;
+    margin-bottom: 40px;
   }
   .contact-content-con .left-contact .contact-info {
     text-align: center;
