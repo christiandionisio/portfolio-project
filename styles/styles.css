@@ -55,6 +55,22 @@ a {
   font-family: inherit;
 }
 
+header:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url(https://www.anzueloestudio.pe/img/servicios/desarrollo-programacion-web-1.jpg);
+  opacity: .1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right;
+}
+
 header {
   min-height: 100vh;
   color: var(--color-white);
