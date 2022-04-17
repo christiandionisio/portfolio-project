@@ -23,8 +23,18 @@
 
     .header-content {
         .right-header {
+
+            .name {
+                text-align: center;
+                .prename {
+                    font-size: 16px !important   ;
+                }
+            }
+    
+
             p {
                 font-size: 13px !important;
+                margin-bottom: 40px;
             }
         }
         .left-header {

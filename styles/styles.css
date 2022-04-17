@@ -1064,8 +1064,15 @@ section {
   .right-header .name .machine-effect {
     font-size: 1.7rem !important;
   }
+  .header-content .right-header .name {
+    text-align: center;
+  }
+  .header-content .right-header .name .prename {
+    font-size: 16px !important;
+  }
   .header-content .right-header p {
     font-size: 13px !important;
+    margin-bottom: 40px;
   }
   .header-content .left-header {
     display: none;
