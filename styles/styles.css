@@ -1311,8 +1311,8 @@ section {
             transform: translateX(-50%);
     width: 100%;
     background-color: transparent;
-    -webkit-backdrop-filter: blur(0.6rem);
-            backdrop-filter: blur(0.6rem);
+    -webkit-backdrop-filter: blur(0.7rem);
+            backdrop-filter: blur(0.7rem);
   }
   .controls .control {
     margin: 1rem .3rem;
