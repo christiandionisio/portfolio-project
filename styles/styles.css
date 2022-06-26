@@ -549,7 +549,8 @@ section {
 }
 
 .about-container .left-about {
-  padding-right: 5rem;
+  width: 400px;
+  padding-right: 2em;
 }
 
 .about-container .left-about p {
