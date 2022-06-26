@@ -492,8 +492,8 @@ section {
                         color: var(--color-grey-2);
                     }
     
-                    .progress {
-                        width: 100%;
+                    .progress-nivel {
+                        width: 30%;
                         height: .45rem;
                         background-color: var(--color-grey-4);
                         margin-left: 1rem;
@@ -506,33 +506,14 @@ section {
                             height: 100%;
                             background-color: var(--color-secondary);
                             transition: all .4s ease-in-out;
-                            width: 60%;
+                            width: 100%;
                         }
-    
-                        .java {
-                            width: 90%;
-                        }
-    
-                        .angular {
-                            width: 85%;
-                        }
-    
-                        .flutter {
-                            width: 70%;
-                        }
-    
-                        .mongodb {
-                            width: 80%;
-                        }
-    
-                        .node {
-                            width: 80%;
-                        }
-    
-                        .aws {
-                            width: 70%;
+
+                        .off {
+                            width: 0%;
                         }
                     }
+
                 }
             }
         }
